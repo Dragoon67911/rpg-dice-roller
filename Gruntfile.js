@@ -12,7 +12,7 @@ module.exports = grunt => {
   gruntConfig.jshint = {
     all: [
       'Gruntfile.js',
-      'dice-roller.js'
+      'src/*.js'
     ],
     options: {
       jshintrc: true
@@ -26,7 +26,7 @@ module.exports = grunt => {
   gruntConfig.jasmine = {
     src: {
       src: [
-        'dice-roller.js'
+        gruntConfig.pkg.module,
       ],
       options: {
         helpers: 'tests/helpers/*.helper.js',

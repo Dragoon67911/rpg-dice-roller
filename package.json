@@ -1,10 +1,11 @@
 {
   "name": "rpg-dice-roller",
-  "description": "A dice roller that accepts typical dice notation",
+  "description": "A dice roller that accepts standard dice notation",
   "author": "GreenImp <info@greenimp.co.uk> (http://greenimp.co.uk",
   "version": "1.6.0",
   "license": "MIT",
-  "main": "dice-roller.js",
+  "main": "dist/index.es5.js",
+  "module": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/GreenImp/rpg-dice-roller.git"
